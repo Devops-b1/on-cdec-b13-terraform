@@ -16,7 +16,7 @@ resource "aws_instance" "instance_1" {
     ami = var.image_id
     instance_type = var.instance_type
     key_name = var.key_pair
-    security_groups = ["default"]
+    security_groups = var.sg_name
 }
 
 variable "image_id" {

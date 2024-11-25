@@ -14,8 +14,8 @@ provider "aws" {
 
 resource "aws_instance" "instance_1" {
     ami = var.image_id
-    instance_type = "t2.micro"
-    key_name = "new-key-nv"
+    instance_type = var.instance_type
+    key_name = var.key_pair
     security_groups = ["default"]
 }
 

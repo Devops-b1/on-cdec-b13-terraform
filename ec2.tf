@@ -56,4 +56,6 @@ variable "key_pair" {
 #     default = ["default"]
 # }
 
-output ""
+output "demo" {
+    value = 
+}

@@ -60,6 +60,9 @@ variable "key_pair" {
     default = "new-key-nv"
 }
 
+variable "subnet_id" {
+    default = "subnet-091678d44aa5db41d"
+}
 
 # variable "sg_name" {
 #     type = list

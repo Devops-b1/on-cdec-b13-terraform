@@ -12,7 +12,9 @@ provider "aws" {
     region = "us-east-1"
 }
 
-data "aws_subnet"
+data "aws_subnet" "my_subnet" {
+    
+}
 
 resource "aws_security_group" "my_sg" {
     name = "my-sg"

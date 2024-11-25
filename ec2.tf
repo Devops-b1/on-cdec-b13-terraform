@@ -57,5 +57,5 @@ variable "key_pair" {
 # }
 
 output "demo" {
-    value = "Hello World"
+    values = "Hello World"
 }

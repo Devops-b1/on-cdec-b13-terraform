@@ -33,4 +33,6 @@ variable "key_pair" {
     default = "new-key-nv"
 }
 
-variable ""
+variable "sg_name" {
+    
+}

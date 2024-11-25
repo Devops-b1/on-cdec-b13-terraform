@@ -13,7 +13,7 @@ provider "aws" {
 }
 
 data "aws_key_pair" "my_key" {
-    name = 
+    key_name = "new-key-nv" 
 }
 
 resource "aws_security_group" "my_sg" {

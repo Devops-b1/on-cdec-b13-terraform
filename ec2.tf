@@ -30,5 +30,7 @@ variable "instance_type" {
 }
 
 variable "key_pair" {
-    default = ""
+    default = "new-key-nv"
 }
+
+variable ""

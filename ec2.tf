@@ -36,7 +36,7 @@ resource "aws_security_group" "my_sg" {
 resource "aws_instance" "instance_1" {
     ami = var.image_id
     instance_type = var.instance_type
-    key_name = var.key_pair
+    # key_name = var.key_pair
 #    security_groups = var.sg_name
     vpc_security_group_ids = [aws_security_group.my_sg.id]
     user_data = <<-EOF
@@ -57,9 +57,9 @@ variable "instance_type" {
     default = "t2.micro"
 }
 
-variable "key_pair" {
-    default = "new-key-nv"
-}
+# variable "key_pair" {
+#     default = "new-key-nv"
+# }
 
 # variable "sg_name" {
 #     type = list

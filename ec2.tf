@@ -25,3 +25,6 @@ variable "image_id" {
   description = "Enter AMI ID"
 }
 
+variable "instance_type" {
+    
+}

@@ -13,7 +13,7 @@ provider "aws" {
 }
 
 data "aws_key_pair" "my_key" {
-    
+    name = 
 }
 
 resource "aws_security_group" "my_sg" {

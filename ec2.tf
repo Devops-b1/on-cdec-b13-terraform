@@ -80,5 +80,5 @@ output "public_ip" {
 }
 
 output "arn_subnet" {
-    value = data.aws_subnet.my_subnet.
+    value = data.aws_subnet.my_subnet.arn
 }

@@ -15,7 +15,7 @@ provider "aws" {
 resource "aws_security_group" "my_sg" {
     name =
     description = 
-    
+    ingress
 }
 
 resource "aws_instance" "instance_1" {

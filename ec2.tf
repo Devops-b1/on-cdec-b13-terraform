@@ -13,10 +13,14 @@ provider "aws" {
 }
 
 resource "aws_instance" "instance_1" {
-    ami = "ami-012967cc5a8c9f891"
+    ami = 
     instance_type = "t2.micro"
     key_name = "new-key-nv"
     security_groups = ["default"]
 }
 
-
+variable "image_id" {
+  type        = string
+#  default     = "ami-012967cc5a8c9f891"
+  description = "Enter AMI ID"
+}

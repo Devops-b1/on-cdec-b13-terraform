@@ -46,6 +46,22 @@ map: {fruit = "apple", name = "shubham", address = "Hinganghat" }
 ## Installation Terraform
 
 
+## Terraform Lifecycle
+
+Write Code - Terraform configuration .tf
+
+terraform init - initialise terraform provider, download lib, download plugins, initialize modules, variables varify
+.terraform/  
+.terraform.lock.hcl - 
+
+terraform plan - Blueprint infrastructure
++ (Add resource) - (Delete Resource) ~ (Change Resource) 
+
+terraform apply - Create infrastructure
+terraform.tfstate - infra state, terraform refer tfstate first 
+terraform.tfstate.backup
+terraform destroy - delete complete infra
+
 
 
 

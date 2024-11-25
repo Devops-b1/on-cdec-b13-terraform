@@ -34,5 +34,6 @@ variable "key_pair" {
 }
 
 variable "sg_name" {
-    
+    type = list
+    default = ["default"]
 }

@@ -14,7 +14,7 @@ provider "aws" {
 
 resource "aws_security_group" "my_sg" {
     name = "my-sg"
-    description = 
+    description = "HTTP Port"
     ingress
     egress
 }

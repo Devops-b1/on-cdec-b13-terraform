@@ -38,7 +38,7 @@ resource "aws_instance" "instance_1" {
     instance_type = var.instance_type
 #    key_name = var.key_pair
 #    security_groups = var.sg_name
-    key_name = data.
+    key_name = data.aws_key_pair
     vpc_security_group_ids = [aws_security_group.my_sg.id]
     user_data = <<-EOF
         #!/bin/bash

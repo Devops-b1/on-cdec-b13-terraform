@@ -39,7 +39,7 @@ resource "aws_instance" "instance_1" {
     key_name = var.key_pair
 #    security_groups = var.sg_name
     vpc_security_group_ids = [aws_security_group.my_sg.id]
-   subnet_id = var.subnet_id
+    subnet_id = var.subnet_id
     user_data = <<-EOF
         #!/bin/bash
         yum install httpd -y

@@ -60,6 +60,7 @@ variable "key_pair" {
     default = "new-key-nv"
 }
 
+
 # variable "sg_name" {
 #     type = list
 #     default = ["default"]

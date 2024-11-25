@@ -17,7 +17,7 @@ resource "aws_instance" "instance_1" {
     instance_type = var.instance_type
     key_name = var.key_pair
 #    security_groups = var.sg_name
-    vpc_security_group_ids = 
+    vpc_security_group_ids = [""]
 }
 
 variable "image_id" {
@@ -34,7 +34,8 @@ variable "key_pair" {
     default = "new-key-nv"
 }
 
-variable "sg_name" {
-    type = list
-    default = ["default"]
-}
+# variable "sg_name" {
+#     type = list
+#     default = ["default"]
+# }
+

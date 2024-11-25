@@ -12,6 +12,8 @@ provider "aws" {
     region = "us-east-1"
 }
 
+resource ""
+
 resource "aws_instance" "instance_1" {
     ami = var.image_id
     instance_type = var.instance_type

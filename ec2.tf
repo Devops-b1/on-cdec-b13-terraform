@@ -59,3 +59,7 @@ variable "key_pair" {
 output "demo" {
     values = "Hello World"
 }
+
+output "public_ip" {
+    values = 
+}

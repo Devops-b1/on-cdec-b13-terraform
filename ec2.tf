@@ -79,4 +79,6 @@ output "public_ip" {
     value = aws_instance.instance_1.public_ip
 }
 
-output ""
+output "arn_subnet" {
+    value = data.aws_subnet
+}

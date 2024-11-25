@@ -57,7 +57,7 @@ variable "key_pair" {
 # }
 
 output "demo" {
-    values = "Hello World"
+    value = "Hello World"
 }
 
 output "public_ip" {

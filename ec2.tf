@@ -12,6 +12,8 @@ provider "aws" {
     region = "us-east-1"
 }
 
+
+
 resource "aws_security_group" "my_sg" {
     name = "my-sg"
     description = "allow HTTP Port"

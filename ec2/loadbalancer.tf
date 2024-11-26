@@ -16,7 +16,7 @@ resource "aws_lb_target_group" "tg_laptop" {
   health_check {
     path = "/laptop/"
     port = 80
-    protocol = "TCP"
+    protocol = "HTTP"
   }
 }
 
@@ -27,7 +27,7 @@ resource "aws_lb_target_group" "tg_mobile" {
   health_check {
     path = "/mobile/"
     port = 80
-    protocol = "TCP"
+    protocol = "HTTP"
   }
 }
 resource "aws_lb" "my_lb" {

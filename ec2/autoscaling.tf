@@ -1,1 +1,3 @@
-resource "awsaws_launch_configuration" ""
+resource "awsaws_launch_configuration" "lc_home" {
+    
+}

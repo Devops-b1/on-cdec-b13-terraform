@@ -121,7 +121,7 @@ resource "aws_autoscaling_group" "asg_mobile" {
 
 resource "aws_autoscaling_policy" "asg_policy_mobile" {
   autoscaling_group_name = aws_autoscaling_group.asg_mobile.name
-  name                   = "asg_policy_home"
+  name                   = "asg_policy_mobile"
   policy_type            = "PredictiveScaling"
   predictive_scaling_configuration {
     metric_specification {

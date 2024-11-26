@@ -64,10 +64,4 @@ resource "aws_lb_listener_rule" "my_lb_listener_rule" {
       values = ["/laptop*"]
     }
   }
-
-  condition {
-    host_header {
-      values = ["example.com"]
-    }
-  }
 }

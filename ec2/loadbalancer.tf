@@ -34,8 +34,8 @@ resource "aws_lb" "my_lb" {
   name               = "my-lb"
   internal           = false
   load_balancer_type = "application"
-  security_groups    = [aws_security_group.my_sg.]
-  subnets            = [for subnet in aws_subnet.public : subnet.id]
+  security_groups    = [aws_security_group.my_sg.id]
+  subnets            = []
 
   enable_deletion_protection = true
 

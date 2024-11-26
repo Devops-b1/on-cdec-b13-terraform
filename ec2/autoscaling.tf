@@ -1,13 +1,25 @@
 resource "aws_security_group" "my_sg" {
-    name
+    name = "allow-http-public"
+    description = "allow HTTP Port"
+    ingress {
+        from_port        = 80
+        to_port          = 80
+        protocol         = "TCP"
+        cidr_blocks      = ["0.0.0.0/0"]
+    }
+    egress {
+        from_port        = 0
+        to_port          = 0
+        protocol         = "-1"
+        cidr_blocks      = ["0.0.0.0/0"]
+    }
 }
-
 
 resource "aws_launch_configuration" "lc_home" {
     image_id = var.image_id
     instance_type = var.instance_type
     key_name = var.key_pair
-    security_groups = 
+    security_groups = aws_security_group.my
     user_data = <<EOF
     #!/bin/bash
     yum install httpd -y

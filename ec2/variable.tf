@@ -9,3 +9,9 @@ variable "instance_type" {
 variable "key_pair" {
     default = "new-key-nv"
 }
+
+variable "subnet_id_1" {
+    default =
+}
+
+variable ""

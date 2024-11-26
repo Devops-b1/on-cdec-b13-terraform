@@ -3,4 +3,5 @@ resource "awsaws_launch_configuration" "lc_home" {
     instance_type
     key_name
     security_groups
+    user_data
 }

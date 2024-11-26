@@ -1,1 +1,1 @@
-resource "aws"
+resource "awsaws_launch_configuration" ""

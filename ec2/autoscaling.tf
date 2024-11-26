@@ -54,7 +54,7 @@ resource "aws_launch_configuration" "lc_mobile" {
     yum install httpd -y
     systemctl start httpd
     systmectl enable httpd
-    mkdir /var/www/html/laptop
-    echo "<h1> This is Laptop Page" > /var/www/html/laptop/index.html
+    mkdir /var/www/html/mobile
+    echo "<h1> This is mobile Page" > /var/www/html/laptop/index.html
     EOF
 }

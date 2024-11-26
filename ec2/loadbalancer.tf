@@ -55,10 +55,9 @@ resource "aws_lb_listener" "my_lb_listener" {
 resource "aws_lb_listener_rule" "my_lb_listener_rule" {
   listener_arn = aws_lb_listener.my_lb_listener.arn
   priority     = 100
-
   action {
     type             = "forward"
-    target_group_arn = aws_lb_target_group.static.arn
+    target_group_arn = aws
   }
 
   condition {

@@ -39,7 +39,7 @@ resource "aws_launch_configuration" "lc_laptop" {
     yum install httpd -y
     systemctl start httpd
     systmectl enable httpd
-    
+    mkdir /var/www/html/laptop
     echo "<h1> Hello World </h1> <br> <h2> Welcome to Cloudblitz </h2>" > /var/www/html/index.html
     EOF
 }

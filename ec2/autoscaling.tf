@@ -64,9 +64,9 @@ resource "aws_launch_configuration" "lc_mobile" {
 # group size
 # sclaing policy (condition, action)
 
-resource "aws_autoscaling_group" "test" {
-  name                 = "foobar3-terraform-test"
+resource "aws_autoscaling_group" "asg_home" {
+  name                 = "asg-home"
   max_size             = 5
   min_size             = 2
-  launch_configuration = aws_launch_configuration.foobar.name
+  launch_configuration = 
   vpc_zone_identifier  = [aws_subnet.example1.id, aws_subnet.example2.id]

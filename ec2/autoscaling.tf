@@ -115,11 +115,11 @@ resource "aws_autoscaling_group" "asg_mobile" {
   max_size             = 5
   min_size             = 2
   desired_capacity     = 2
-  launch_configuration = aws_launch_configuration.lc_home.name
+  launch_configuration = aws_launch_configuration.lc_mobile.name
   vpc_zone_identifier  = [var.subnet_id_1, var.subnet_id_2]
 }
 
-resource "aws_autoscaling_policy" "asg_policy_home" {
+resource "aws_autoscaling_policy" "asg_policy_" {
   autoscaling_group_name = aws_autoscaling_group.asg_home.name
   name                   = "asg_policy_home"
   policy_type            = "PredictiveScaling"

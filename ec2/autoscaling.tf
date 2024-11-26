@@ -62,4 +62,4 @@ resource "aws_launch_configuration" "lc_mobile" {
 # name
 # launch configuration
 # group size
-# sclaing policy
+# sclaing policy (condition, action)

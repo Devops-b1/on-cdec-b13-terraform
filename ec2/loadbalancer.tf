@@ -10,7 +10,7 @@ resource "aws_lb_target_group" "tg_home" {
 }
 
 resource "aws_lb_target_group" "tg_laptop" {
-  name     = "tg-home"
+  name     = "tg-laptop"
   port     = 80
   protocol = "HTTP"
   health_check {

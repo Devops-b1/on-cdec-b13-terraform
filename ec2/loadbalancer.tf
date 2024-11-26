@@ -6,6 +6,5 @@ resource "aws_lb_target_group" "tg_home" {
     path = "/"
     port = 80
     protocol = "TCP"
-    
   }
 }

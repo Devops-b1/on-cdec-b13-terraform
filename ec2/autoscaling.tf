@@ -55,6 +55,6 @@ resource "aws_launch_configuration" "lc_mobile" {
     systemctl start httpd
     systmectl enable httpd
     mkdir /var/www/html/mobile
-    echo "<h1> SALE SALE SALE on mobile Page" > /var/www/html/laptop/index.html
+    echo "<h1> SALE SALE SALE on mobile Page" > /var/www/html/mobile/index.html
     EOF
 }

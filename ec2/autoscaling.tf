@@ -71,7 +71,7 @@ resource "aws_autoscaling_group" "asg_home" {
   desired_capacity     = 2
   launch_configuration = aws_launch_configuration.lc_home.name
   vpc_zone_identifier  = [var.subnet_id_1, var.subnet_id_2]
-
+}
 
 resource "aws_autoscaling_policy" "example" {
   autoscaling_group_name = "my-test-asg"

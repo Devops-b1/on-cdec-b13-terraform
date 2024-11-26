@@ -30,3 +30,5 @@ resource "aws_lb_target_group" "tg_mobile" {
     protocol = "TCP"
   }
 }
+
+resource 

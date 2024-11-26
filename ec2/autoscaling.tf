@@ -62,7 +62,7 @@ resource "aws_launch_configuration" "lc_mobile" {
 # name
 # launch configuration
 # group size
-# sclaing policy (condition, action)
+# sclaing policy (condition (CloudWatch - Alarm), action)
 
 resource "aws_autoscaling_group" "asg_home" {
   name                 = "asg-home"

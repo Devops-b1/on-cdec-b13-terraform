@@ -4,5 +4,6 @@ resource "aws_launch_configuration" "lc_home" {
     key_name = var.key_pair
     security_groups = 
     user_data = <<EOF
-    
+    #!/bin/bash
+    apt update -y
 }

@@ -75,7 +75,7 @@ resource "aws_lb_listener_rule" "my_lb_listener_rule_mobile" {
   }
   condition {
     path_pattern {
-      values = ["/laptop*"]
+      values = ["/mobile*"]
     }
   }
 }

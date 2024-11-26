@@ -60,4 +60,5 @@ resource "aws_launch_configuration" "lc_mobile" {
 }
 
 # name
+# launch configuration
 # 

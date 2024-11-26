@@ -42,7 +42,7 @@ resource "aws_lb" "my_lb" {
   }
 }
 
-resource "aws_lb_listener" "my_" {
+resource "aws_lb_listener" "my_lb_" {
   load_balancer_arn = aws_lb.front_end.arn
   port              = "443"
   protocol          = "HTTPS"

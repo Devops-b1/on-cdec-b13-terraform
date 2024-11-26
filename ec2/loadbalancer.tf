@@ -14,18 +14,18 @@ resource "aws_lb_target_group" "tg_laptop" {
   port     = 80
   protocol = "HTTP"
   health_check {
-    path = "/"
+    path = "/laptop/"
     port = 80
     protocol = "TCP"
   }
 }
 
 resource "aws_lb_target_group" "tg_mobile" {
-  name     = "tg-home"
+  name     = "tg-mobile"
   port     = 80
   protocol = "HTTP"
   health_check {
-    path = "/"
+    path = "/mobile/"
     port = 80
     protocol = "TCP"
   }

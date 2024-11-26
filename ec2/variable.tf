@@ -1,5 +1,5 @@
 variable "image_id" {
-    default = ""
+    default = "ami-012967cc5a8c9f891"
 }
 
 variable "instance_type" {

@@ -58,3 +58,4 @@ resource "aws_launch_configuration" "lc_mobile" {
     echo "<h1> SALE SALE SALE on mobile Page" > /var/www/html/mobile/index.html
     EOF
 }
+

@@ -37,13 +37,8 @@ resource "aws_lb" "my_lb" {
   security_groups    = [aws_security_group.my_sg.id]
   subnets            = [var.subnet_id_1, var.subnet_id_2]
 
-  access_logs {
-    bucket  = aws_s3_bucket.lb_logs.id
-    prefix  = "test-lb"
-    enabled = true
-  }
-
   tags = {
-    Environment = "production"
+    app = "my-app"
+    env
   }
 }

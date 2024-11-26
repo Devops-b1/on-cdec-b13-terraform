@@ -3,5 +3,5 @@ resource "aws_launch_configuration" "lc_home" {
     instance_type = var.instance_type
     key_name = var.key_pair
     security_groups = 
-    user_data
+    user_data = 
 }

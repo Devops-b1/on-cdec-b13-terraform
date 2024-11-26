@@ -40,6 +40,6 @@ resource "aws_launch_configuration" "lc_laptop" {
     systemctl start httpd
     systmectl enable httpd
     mkdir /var/www/html/laptop
-    echo "<h1> This is Laptop Page" > /var/www/html/index.html
+    echo "<h1> This is Laptop Page" > /var/www/html/laptop/index.html
     EOF
 }

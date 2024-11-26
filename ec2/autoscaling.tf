@@ -94,7 +94,7 @@ resource "aws_autoscaling_group" "asg_laptop" {
   desired_capacity     = 2
   launch_configuration = aws_launch_configuration.lc_laptop.name
   vpc_zone_identifier  = [var.subnet_id_1, var.subnet_id_2]
-  target_group_arns = []
+  target_group_arns = [aws_lb_target_group.tg_laptop.arn]
 }
 
 resource "aws_autoscaling_policy" "asg_policy_laptop" {

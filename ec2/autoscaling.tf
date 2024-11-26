@@ -96,9 +96,9 @@ resource "aws_autoscaling_group" "asg_laptop" {
   vpc_zone_identifier  = [var.subnet_id_1, var.subnet_id_2]
 }
 
-resource "aws_autoscaling_policy" "asg_policy_home" {
-  autoscaling_group_name = aws_autoscaling_group.asg_home.name
-  name                   = "asg_policy_home"
+resource "aws_autoscaling_policy" "asg_policy_laptop" {
+  autoscaling_group_name = aws_autoscaling_group.asg_laptop.name
+  name                   = "asg_policy_laptop"
   policy_type            = "PredictiveScaling"
   predictive_scaling_configuration {
     metric_specification {

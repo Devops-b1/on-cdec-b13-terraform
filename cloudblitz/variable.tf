@@ -11,5 +11,5 @@ variable "env" {
 }
 
 variable "pri_cidr" {
-    default = "dev"
+    default = "10.0.0.0/20"
 }

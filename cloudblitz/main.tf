@@ -10,5 +10,3 @@ module "vpc_module" {
     private_subnet_cidr = "10.0.0.0/20"
     public_subnet_cidr = "10.0.16.0/20"
 }
-
-module ""

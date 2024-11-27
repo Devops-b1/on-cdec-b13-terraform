@@ -5,3 +5,4 @@ resource "aws_vpc" "cbz_vpc" {
     env = var.env
   }
 }
+

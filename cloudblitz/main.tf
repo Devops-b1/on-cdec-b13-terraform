@@ -18,5 +18,5 @@ module "ec2_module" {
     security_group_id =
     key_pair =
     private_subnet_id =
-    pub
+    public_subnet_id = 
 }

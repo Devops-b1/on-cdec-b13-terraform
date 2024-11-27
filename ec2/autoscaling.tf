@@ -71,7 +71,7 @@ resource "aws_autoscaling_group" "asg_home" {
   desired_capacity     = 2
   launch_template {
     id = 
-    
+    version = 
   }
   vpc_zone_identifier  = [var.subnet_id_1, var.subnet_id_2]
   target_group_arns = [aws_lb_target_group.tg_home.arn]

@@ -20,6 +20,6 @@ resource "aws_subnet" "public_subnet" {
   cidr_block = var.public_subnet_cidr
 
   tags = {
-    Name = "${var.project}-private-subnet"
+    Name = "${var.project}-public-subnet"
   }
 }

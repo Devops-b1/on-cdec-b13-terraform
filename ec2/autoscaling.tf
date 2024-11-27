@@ -70,7 +70,7 @@ resource "aws_autoscaling_group" "asg_home" {
   min_size             = 2
   desired_capacity     = 2
   launch_template {
-    id = 
+    id = aws_launch_template.
     version = 
   }
   vpc_zone_identifier  = [var.subnet_id_1, var.subnet_id_2]

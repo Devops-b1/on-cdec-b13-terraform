@@ -6,7 +6,7 @@ module "vpc_module" {
     source = "./modules/vpc"
     cidr = "10.0.0.0/16"
     project = "cbz"
-    env =
-    private_subnet_cidr =
+    env = "dev"
+    private_subnet_cidr = "10.0.0.0/20"
     public_subnet_cidr =
 }

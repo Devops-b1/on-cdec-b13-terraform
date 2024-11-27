@@ -17,7 +17,7 @@ module "ec2_module" {
     instance_type = var.instance_type
     security_group_id = aws_security_group.my_sg.id
     key_pair = var.login_key
-    private_subnet_id = module.
+    private_subnet_id = module.v
     public_subnet_id = 
 }
 

@@ -4,8 +4,8 @@ provider "aws" {
 
 module "vpc_module" {
     source = "./modules/vpc"
-    cidr =
-    project =
+    cidr = "10.0.0.0/16"
+    project = "cbz"
     env =
     private_subnet_cidr =
     public_subnet_cidr =

@@ -10,3 +10,6 @@ variable "env" {
     default = "dev"
 }
 
+variable "pri_cidr" {
+    default = "dev"
+}

@@ -20,3 +20,5 @@ module "ec2_module" {
     private_subnet_id =
     public_subnet_id = 
 }
+
+resource "aws_security_group" 

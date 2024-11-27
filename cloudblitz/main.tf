@@ -37,7 +37,7 @@ resource "aws_security_group" "my_sg" {
         protocol         = "-1"
         cidr_blocks      = ["0.0.0.0/0"]
     }
-    depends_on [
+    depends_on = [
         module.vpc_module
     ]
 }

@@ -1,1 +1,1 @@
-vari
+variable "vpc_cidr "

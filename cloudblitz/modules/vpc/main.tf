@@ -38,7 +38,8 @@ resource "aws_default_route_table" "r" {
   default_route_table_id = aws_vpc.cbz_vpc.default_route_table_id 
 
   route {
-
+    cidr_block = "0.0.0.0/0"
+    
   }
   tags = {
     Name = "${var.project}-default-rt"

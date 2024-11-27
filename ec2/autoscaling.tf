@@ -99,7 +99,8 @@ resource "aws_autoscaling_group" "asg_laptop" {
   launch_template {
     id = aws_launch_template.lt_laptop.id
     version = aws_launch_template.lt_laptop.latest_version
-  }  vpc_zone_identifier  = [var.subnet_id_1, var.subnet_id_2]
+  }  
+  vpc_zone_identifier  = [var.subnet_id_1, var.subnet_id_2]
   target_group_arns = [aws_lb_target_group.tg_laptop.arn]
 }
 

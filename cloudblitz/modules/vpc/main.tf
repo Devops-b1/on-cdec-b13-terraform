@@ -26,8 +26,8 @@ resource "aws_subnet" "public_subnet" {
   }
 }
 
-resource "aws_internet_gateway" "gw" {
-  vpc_id = aws_vpc.main.id
+resource "aws_internet_gateway" "igw" {
+  vpc_id = aws_vpc.cbz_vpc.id
 
   tags = {
     Name = "main"

@@ -19,5 +19,5 @@ variable "pub_cidr" {
 }
 
 variable "image_id" {
-    default = 
+    default = "ami-012967cc5a8c9f891"
 }

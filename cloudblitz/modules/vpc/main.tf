@@ -25,3 +25,4 @@ resource "aws_subnet" "public_subnet" {
     env = var.env
   }
 }
+

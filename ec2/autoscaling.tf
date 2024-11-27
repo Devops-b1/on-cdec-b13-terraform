@@ -15,7 +15,7 @@ resource "aws_security_group" "my_sg" {
     }
 }
 
-resource "aws_launch_template" "lc_home" {
+resource "aws_launch_template" "lt_home" {
     image_id = var.image_id
     instance_type = var.instance_type
     key_name = var.key_pair
@@ -29,7 +29,7 @@ resource "aws_launch_template" "lc_home" {
     EOF
 }
 
-resource "aws_launch_configuration" "lc_laptop" {
+resource "aws_launch_template" "lc_laptop" {
     image_id = var.image_id
     instance_type = var.instance_type
     key_name = var.key_pair

@@ -13,3 +13,4 @@ resource "aws_instance" "public_instance" {
     key_name = var.key_pair
     subnet_id = var.public_subnet_id
 }
+

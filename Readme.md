@@ -68,7 +68,14 @@ terraform destroy - delete complete infra
 
 pedefined tf conf
 
-
+ec2
+rds
+route53
+lb
+as
+vpc
+s3
+iam
 
 
 

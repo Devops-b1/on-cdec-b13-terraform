@@ -36,10 +36,9 @@ resource "aws_internet_gateway" "igw" {
 
 resource "aws_default_route_table" "r" {
   default_route_table_id = aws_vpc.cbz_vpc.default_route_table_id 
-
   route {
     cidr_block = "0.0.0.0/0"
-    gateway_id = 
+    gateway_id = aws_internet_gateway.igw.id
   }
   tags = {
     Name = "${var.project}-default-rt"

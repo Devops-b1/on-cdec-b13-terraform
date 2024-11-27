@@ -29,7 +29,8 @@ resource "aws_subnet" "public_subnet" {
 resource "aws_internet_gateway" "igw" {
   vpc_id = aws_vpc.cbz_vpc.id
   tags = {
-    Name = "${var.project}-public-subnet"
+    Name = "${var.project}-igw"
     env = var.env
   }
 }
+

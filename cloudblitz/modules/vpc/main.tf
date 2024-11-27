@@ -39,7 +39,7 @@ resource "aws_default_route_table" "r" {
 
   route {
     cidr_block = "0.0.0.0/0"
-    
+    gateway_id = 
   }
   tags = {
     Name = "${var.project}-default-rt"

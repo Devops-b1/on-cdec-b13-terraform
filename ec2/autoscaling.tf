@@ -20,7 +20,7 @@ resource "aws_launch_template" "lt_home" {
     instance_type = var.instance_type
     key_name = var.key_pair
     vpc_security_group_ids = [aws_security_group.my_sg.id]
-    user_data = filebase64("home.sh")
+    user_data = filebase64("./home.sh")
 }
 
 resource "aws_launch_template" "lt_laptop" {
@@ -28,7 +28,7 @@ resource "aws_launch_template" "lt_laptop" {
     instance_type = var.instance_type
     key_name = var.key_pair
     vpc_security_group_ids = [aws_security_group.my_sg.id]
-    user_data = filebase64("home.sh")
+    user_data = filebase64("./laptop.sh")
 }
 
 resource "aws_launch_template" "lt_mobile" {

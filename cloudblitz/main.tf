@@ -39,5 +39,3 @@ resource "aws_security_group" "my_sg" {
 }
 
 
-implicit dependance
-explicit dependace

@@ -44,7 +44,7 @@ resource "aws_launch_template" "lt_laptop" {
     EOF
 }
 
-resource "aws_launch_configuration" "lc_mobile" {
+resource "aws_launch_template" "lt_mobile" {
     image_id = var.image_id
     instance_type = var.instance_type
     key_name = var.key_pair

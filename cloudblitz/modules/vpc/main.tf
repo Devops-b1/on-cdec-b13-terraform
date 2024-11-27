@@ -6,3 +6,11 @@ resource "aws_vpc" "cbz_vpc" {
   }
 }
 
+resource "aws_subnet" "private_subnet" {
+  vpc_id     = aws_vpc.cbz_vpc.id
+  cidr_block = var.
+
+  tags = {
+    Name = "Main"
+  }
+}

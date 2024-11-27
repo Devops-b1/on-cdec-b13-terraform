@@ -1,3 +1,5 @@
-variable "cidr" {}
+variable "cidr" {
+    default = ""
+}
 variable "project" {}
-variable ""
+variable "env" {}

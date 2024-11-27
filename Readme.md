@@ -77,5 +77,3 @@ vpc
 s3
 iam
 
-terraform module
-

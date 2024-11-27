@@ -66,7 +66,9 @@ terraform destroy - delete complete infra
 
 
 
-peconfigured 
+pedefined tf conf
+
+
 
 
 

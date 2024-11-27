@@ -20,13 +20,7 @@ resource "aws_launch_template" "lt_home" {
     instance_type = var.instance_type
     key_name = var.key_pair
     vpc_security_group_ids = [aws_security_group.my_sg.id]
-    user_data = <<EOF
-    #!/bin/bash
-    yum install httpd -y
-    systemctl start httpd
-    systmectl enable httpd
-    echo "<h1> Hello World </h1> <br> <h2> Welcome to Cloudblitz </h2>" > /var/www/html/index.html
-    EOF
+    user_data = 
 }
 
 resource "aws_launch_template" "lt_laptop" {

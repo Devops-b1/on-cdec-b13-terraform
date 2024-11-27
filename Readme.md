@@ -64,8 +64,6 @@ terraform destroy - delete complete infra
 
 
 
-
-
 pedefined tf conf
 
 ec2

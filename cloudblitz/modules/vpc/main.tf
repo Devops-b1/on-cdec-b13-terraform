@@ -38,10 +38,10 @@ resource "aws_default_route_table" "r" {
   default_route_table_id = aws_vpc.cbz_vpc.default_route_table_id 
 
   route {
-    # ...
-  }
 
+  }
   tags = {
-    Name = "default table"
+    Name = "${var.project}-igw"
+    env = var.env
   }
 }

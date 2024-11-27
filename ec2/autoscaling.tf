@@ -36,14 +36,7 @@ resource "aws_launch_template" "lt_mobile" {
     instance_type = var.instance_type
     key_name = var.key_pair
     vpc_security_group_ids = [aws_security_group.my_sg.id]
-    user_data = <<EOF
-    #!/bin/bash
-    yum install httpd -y
-    systemctl start httpd
-    systmectl enable httpd
-    mkdir /var/www/html/mobile
-    echo "<h1> SALE SALE SALE on mobile Page" > /var/www/html/mobile/index.html
-    EOF
+    user_data = 
 }
 
 # name

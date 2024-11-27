@@ -122,8 +122,10 @@ resource "aws_autoscaling_group" "asg_mobile" {
   max_size             = 5
   min_size             = 2
   desired_capacity     = 2
-  launch_configuration = aws_launch_configuration.lc_mobile.name
-  vpc_zone_identifier  = [var.subnet_id_1, var.subnet_id_2]
+  launch_template {
+    id = aws_launch_template.lt_mobile.id
+    version = aws_launch_template.lt_home.latest_version
+  }  vpc_zone_identifier  = [var.subnet_id_1, var.subnet_id_2]
   target_group_arns = [aws_lb_target_group.tg_mobile.arn]
 }
 

@@ -66,7 +66,7 @@ terraform destroy - delete complete infra
 
 
 
-
+peconfigured 
 
 
 

@@ -19,7 +19,7 @@ resource "aws_launch_template" "lt_home" {
     image_id = var.image_id
     instance_type = var.instance_type
     key_name = var.key_pair
-    security_groups = [aws_security_group.my_sg.id]
+    vpc_security_group_ids = [aws_security_group.my_sg.id]
     user_data = <<EOF
     #!/bin/bash
     yum install httpd -y
@@ -33,7 +33,7 @@ resource "aws_launch_template" "lt_laptop" {
     image_id = var.image_id
     instance_type = var.instance_type
     key_name = var.key_pair
-    security_groups = [aws_security_group.my_sg.id]
+    vpc = [aws_security_group.my_sg.id]
     user_data = <<EOF
     #!/bin/bash
     yum install httpd -y

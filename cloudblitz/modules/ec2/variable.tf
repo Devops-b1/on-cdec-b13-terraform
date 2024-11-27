@@ -1,3 +1,4 @@
 variable "image_id" {}
 variable "instance_type" {}
-variable ""
+variable "security_group_id" {}
+variable 

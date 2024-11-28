@@ -163,7 +163,7 @@ Git
 Merge
 Conflict
 Push
-revert 
+revert vs restore vs reset
 
 
 

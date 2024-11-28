@@ -103,6 +103,8 @@ Words in file (wc)
 SED - 
 AWK - 
 
+ps -elf
+
 
 
 

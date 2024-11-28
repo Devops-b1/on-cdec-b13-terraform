@@ -91,6 +91,10 @@ HDD - df -hT
 
 TOP - 
 time uptime load average 1 5 15
+task 
+cpu
+mem
+swap
 
 
 

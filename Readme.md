@@ -104,7 +104,9 @@ SED -
 AWK - 
 
 
+top 5 highly utlized partition
 
+df -hT 
 
 
 

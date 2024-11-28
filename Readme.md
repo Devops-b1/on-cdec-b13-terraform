@@ -84,7 +84,7 @@ Documents
 WHAT WHY HOW?
 
 Linux - Command, Syntax, example
-- How to check conf
+- How to check configuration?
 
 
 

@@ -145,7 +145,7 @@ VPC NatGateway
 Natgateway V/C Nat instance
 
 CloudWatch 
-Alarms, Logs
+Alarms, Logs, events
 
 
 

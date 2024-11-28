@@ -75,4 +75,5 @@ vpc
 s3
 iam
 
-terraform.state - 
+terraform.state 
+- local and working dir create

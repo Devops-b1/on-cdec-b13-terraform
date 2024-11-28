@@ -125,6 +125,7 @@ What is IAM
 
 S3 -
 What are the properties of s3
+s3 lifecycle
 
 
 

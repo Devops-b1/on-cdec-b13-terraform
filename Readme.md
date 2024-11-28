@@ -78,6 +78,7 @@ iam
 terraform.state 
 
 - local and working dir create 
+- all information
 
 
 A - terraform.state(v2)

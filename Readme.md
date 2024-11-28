@@ -92,3 +92,6 @@ backend - remote tfstate
 
 
 
+HW, 
+
+1) Terraform IAM user > 

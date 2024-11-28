@@ -80,7 +80,7 @@ terraform.state
 - local and working dir create 
 
 
-A - terraform.state 
+A - terraform.state(v1) 
 
 B
 

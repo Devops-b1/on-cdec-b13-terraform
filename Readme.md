@@ -138,6 +138,9 @@ LB - types
 AS - 
 
 LC / LT:
+AMI
+Instance
+SG
 
 
 

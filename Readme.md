@@ -85,6 +85,10 @@ WHAT WHY HOW?
 
 Linux - Command, Syntax, example
 - How to check configuration?
+RAM
+PRocess
+HD
+
 
 
 

@@ -211,7 +211,9 @@ API - Application programming interface
 
 backend - microservice 
 
-Amazon.war
+Amazon.war - monolithic
+
+cloth.war
 
 
 

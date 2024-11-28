@@ -1,6 +1,6 @@
 vpc_cidr = "10.0.0.0/16"
 project_name = "cbz"
-env = "prod"
+env = "test"
 pri_cidr = "10.0.0.0/20"
 pub_cidr = "10.0.16.0/20"
 image_id = "ami-012967cc5a8c9f891"

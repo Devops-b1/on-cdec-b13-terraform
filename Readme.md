@@ -169,6 +169,7 @@ cherrypik
 Docker
 -----
 Dockerfile 
+CMD vs Entrypoint vs RUn
 
 
 

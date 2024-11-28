@@ -144,7 +144,9 @@ VPC Endpoint
 VPC NatGateway
 Natgateway V/C Nat instance
 
-RDS
+CloudWatch 
+Alarms, Logs
+
 
 
 

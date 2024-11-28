@@ -130,7 +130,8 @@ s3 storage classes
 how to save cost in infra
 how to host static website
 
-
+ec2 -
+tr
 
 
 

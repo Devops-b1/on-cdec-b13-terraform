@@ -85,7 +85,7 @@ WHAT WHY HOW?
 
 Linux - Command, Syntax, example
 - How to check configuration?
-RAM
+RAM - free -h 
 PRocess
 HDD
 

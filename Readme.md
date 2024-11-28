@@ -173,6 +173,8 @@ CMD vs Entrypoint vs RUn
 ARG vs ENV
 ADD vs COPY
 Multistage dockerfile
+Optimze docker image
+
 
 
 

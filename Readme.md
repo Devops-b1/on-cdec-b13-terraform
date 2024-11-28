@@ -83,7 +83,7 @@ Documents
 
 WHAT WHY HOW?
 
-Linux - 
+Linux - Command, Syntax, example
 
 
 

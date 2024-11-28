@@ -2,8 +2,8 @@ terraform {
   required_version = ">= 1.0"
   backend "s3" {
     bucket = "on-cdec-b13-terraform"
-    region = ""
-    key = ""
+    region = "us-east-1"
+    key = "terr"
   }
   
 }

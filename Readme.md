@@ -90,7 +90,8 @@ PRocess - lscpu, top
 HDD - df -hT
 
 TOP - 
-time uptime 
+time uptime load average 1 5 15
+
 
 
 

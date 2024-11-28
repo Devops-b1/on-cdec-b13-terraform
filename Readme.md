@@ -101,7 +101,7 @@ PID PPID PRI NICE CPU MEM RES SHARE STATE COMmAND
 Words in file (wc)
 
 SED - 
-AWK
+AWK - 
 
 
 

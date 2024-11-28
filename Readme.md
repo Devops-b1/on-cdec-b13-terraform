@@ -145,7 +145,8 @@ EBS
 Network
 Key Pair
 
-ASG - 
+ASG - Group Size - Desired, min, max
+    
 
 
 

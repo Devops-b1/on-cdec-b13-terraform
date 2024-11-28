@@ -160,7 +160,9 @@ DevOps
 
 Git
 ----
-
+Merge
+Conflict
+Push
 
 
 

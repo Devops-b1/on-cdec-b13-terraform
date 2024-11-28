@@ -1,3 +1,5 @@
 provider "" {}
 
-module "" {}
+module "" {
+    source = "./modules/vpc"
+}

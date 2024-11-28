@@ -86,7 +86,7 @@ WHAT WHY HOW?
 Linux - Command, Syntax, example
 - How to check configuration?
 RAM - free -h 
-PRocess - lscpu, 
+PRocess - lscpu, top 
 HDD
 
 

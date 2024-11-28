@@ -142,7 +142,6 @@ VPC
 VPC Peering
 VPC Endpoint
 VPC NatGateway
-
 Natgateway V/C Nat instance
 
 

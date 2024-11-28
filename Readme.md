@@ -90,8 +90,6 @@ C - terraform.state(v2)
 backend - remote tfstate
 
 
-
-
 HW, 
 
 1) Terraform IAM user > console login + programatic access > Policy s3 full access

@@ -138,18 +138,7 @@ LB - types
 AS - 
 instancetype
 
-LC / LT:
-AMI
-Instance
-SG
-EBS
-Network
-Key Pair
-
-ASG - Group Size - Desired, min, max
-    Scaling policy - Condition + Action
-
-Static, dynamu, schedules
+VPC
 
 
 

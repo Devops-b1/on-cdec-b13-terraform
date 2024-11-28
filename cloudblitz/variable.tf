@@ -11,11 +11,11 @@ variable "env" {
 }
 
 variable "pri_cidr" {
-    default = "10.0.0.0/20"
+    default = "192.168.0.0/20"
 }
 
 variable "pub_cidr" {
-    default = "10.0.16.0/20"
+    default = "192.168.0.0/20"
 }
 
 variable "image_id" {

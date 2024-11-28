@@ -96,7 +96,7 @@ cpu
 mem
 swap
 
-PID 
+PID PPID PRI NICE COMmAND
 
 
 

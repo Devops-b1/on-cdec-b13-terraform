@@ -163,7 +163,7 @@ Git
 Merge
 Conflict
 Push
-RollBack
+revert 
 
 
 

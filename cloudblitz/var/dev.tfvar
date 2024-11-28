@@ -1,2 +1,4 @@
-vpc_cidr = ""
-project_name = ""
+vpc_cidr = "192.168.0.0/16"
+project_name = "cbz"
+env = "dev"
+pri_cidr = "

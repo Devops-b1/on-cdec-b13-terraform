@@ -202,8 +202,8 @@ DevOps - Jenkins, Docker, Kubernetes, Github
 6 Months
 
 
-Opportunities
-
+Opportunities  10
+Applicants
 
 
 

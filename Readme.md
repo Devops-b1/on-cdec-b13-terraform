@@ -82,7 +82,7 @@ terraform.state
 
 A - terraform.state(v1) 
 
-B
+B - terraform.state(v1)
 
-C
+C - terraform.state(v1)
 

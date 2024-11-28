@@ -136,6 +136,7 @@ AMI types
 Volume types
 LB - types
 AS - 
+instancetype
 
 LC / LT:
 AMI

@@ -100,7 +100,7 @@ PID PPID PRI NICE CPU MEM RES SHARE STATE COMmAND
 
 df -hT
 
-disk  
+disk  fs   utilization 
 
 Words in file (wc)
 

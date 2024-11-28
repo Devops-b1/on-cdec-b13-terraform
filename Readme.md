@@ -94,4 +94,4 @@ backend - remote tfstate
 
 HW, 
 
-1) Terraform IAM user > 
+1) Terraform IAM user > console login + programatic access > 

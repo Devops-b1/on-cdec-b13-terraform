@@ -113,7 +113,7 @@ df -hT | awk '(print $3)' | sort | head -5
 
 404 logs 
 
-cat /var/logs/httpd/error.log | 
+cat /var/logs/httpd/error.log | awk '(print $3)' | sort 
 
 
 

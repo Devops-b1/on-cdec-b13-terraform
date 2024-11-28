@@ -195,4 +195,5 @@ AI -
 
 Tailwind
 
-DevOps
+DevOps - Jenkins, Docker, Kubernetes, Github
+

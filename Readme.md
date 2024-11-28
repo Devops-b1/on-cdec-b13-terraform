@@ -81,9 +81,9 @@ project
 QNA
 Documents 
 
-WHAT 
+WHAT WHY HOW?
 
-Linux
+Linux - 
 
 
 

@@ -82,3 +82,5 @@ terraform.state
 
 
 A - terraform.state(v2)
+
+bucket -

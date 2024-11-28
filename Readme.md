@@ -119,7 +119,7 @@ AWS Service (Resources) / Resources (Steps)
 ---
 
 IAM - 
-
+What is IAM user? 
 
 
 

@@ -143,6 +143,9 @@ Instance
 SG
 EBS
 Network
+Key Pair
+
+ASG - 
 
 
 

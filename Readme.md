@@ -146,7 +146,7 @@ Network
 Key Pair
 
 ASG - Group Size - Desired, min, max
-    
+    Scaling policy - Condition + Action
 
 
 

@@ -151,7 +151,8 @@ RDS
 Advantages 
 
 Route53 -
-DNS
+DNS / routing policy
+
 
 
 

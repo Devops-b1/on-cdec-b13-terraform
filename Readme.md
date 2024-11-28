@@ -125,7 +125,9 @@ What is IAM
 
 S3 -
 What are the properties of s3
-s3 lifecycle
+s3 lifecycle 
+
+how to host static website
 
 
 

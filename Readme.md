@@ -148,7 +148,7 @@ Key Pair
 ASG - Group Size - Desired, min, max
     Scaling policy - Condition + Action
 
-Staic, dynamu, schedules
+Static, dynamu, schedules
 
 
 

@@ -83,6 +83,6 @@ terraform.state
 
 A - terraform.state(v1) -> bucket
 
-B -
+B - terraform.state(v2)
 
 C -

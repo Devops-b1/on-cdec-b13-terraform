@@ -124,6 +124,7 @@ MFA
 What is IAM
 
 S3 -
+What are the properties of s3
 
 
 

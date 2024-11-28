@@ -175,7 +175,7 @@ ADD vs COPY
 Multistage dockerfile
 Optimze docker image
 
-
+Kubernetes
 
 
 

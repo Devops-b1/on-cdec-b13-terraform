@@ -5,7 +5,7 @@ terraform {
 provider "aws" {
     region = "us-east-1"
 }
-
+0.12
 module "vpc_module" {
     source = "./modules/vpc"
     cidr = var.vpc_cidr

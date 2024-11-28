@@ -81,6 +81,4 @@ terraform.state
 - all information
 
 
-A - terraform.state(v2)
-
-bucket -
+A - terraform.state(v1) -> bucket

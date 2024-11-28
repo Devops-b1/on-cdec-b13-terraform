@@ -87,7 +87,7 @@ Linux - Command, Syntax, example
 - How to check configuration?
 RAM - free -h 
 PRocess - lscpu, top 
-HDD
+HDD - df -ht
 
 
 

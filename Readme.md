@@ -139,6 +139,9 @@ AS -
 instancetype
 
 VPC
+VPC Peering
+VPC Endpoint
+
 
 
 

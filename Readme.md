@@ -193,3 +193,4 @@ MERN - MongoDB Express React Node
 
 AI -
 
+Tailwind

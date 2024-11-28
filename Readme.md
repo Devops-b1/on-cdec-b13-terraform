@@ -187,5 +187,5 @@ Kubernetes
 
 
 
-MEAN - MongoDB 
+MEAN - MongoDB Express Angular Node
 MERN

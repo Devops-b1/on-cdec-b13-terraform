@@ -110,7 +110,7 @@ AWK -
 
 top 5 highly utlized partition
 
-df -hT | awk '(print $3)' | sort | head
+df -hT | awk '(print $3)' | sort | head -5
 
 
 

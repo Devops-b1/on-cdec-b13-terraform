@@ -126,8 +126,11 @@ What is IAM
 S3 -
 What are the properties of s3
 s3 lifecycle 
-
+s3 storage classes
+how to optimze storage in s3
 how to host static website
+
+e
 
 
 

@@ -2,3 +2,5 @@ vpc_cidr = "192.168.0.0/16"
 project_name = "cbz"
 env = "dev"
 pri_cidr = "192.168.0.0/20"
+pub_cidr = "192.168.16.0/20"
+

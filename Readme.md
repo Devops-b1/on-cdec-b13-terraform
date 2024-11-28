@@ -134,7 +134,7 @@ ec2 -
 troubleshoot 1/2, 0/2
 AMI types
 Volume types
-LB - 
+LB - types
 AS - 
 
 

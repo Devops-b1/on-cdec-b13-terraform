@@ -7,7 +7,7 @@ variable "project_name" {
 }
 
 variable "env" {
-    default = "prod"
+    default = "dev"
 }
 
 variable "pri_cidr" {

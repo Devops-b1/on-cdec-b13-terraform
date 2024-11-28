@@ -85,4 +85,4 @@ A - terraform.state(v3)
 
 B - terraform.state(v2) -> dev-bucket/prod-bucket/test-bucket
 
-C -
+C - terraform.state(v3) 

@@ -214,9 +214,9 @@ backend - microservice
 Amazon.war - monolithic
 
 cloth.war - node
-mobile.war - 
-home.war
-payment.war
+mobile.war - java
+home.war - .net
+payment.war - ruby
 
 
 Java Fullstack

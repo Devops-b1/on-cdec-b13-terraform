@@ -98,6 +98,10 @@ swap
 
 PID PPID PRI NICE CPU MEM RES SHARE STATE COMmAND
 
+df -hT
+
+disk  
+
 Words in file (wc)
 
 SED - 

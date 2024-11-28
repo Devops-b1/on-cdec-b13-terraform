@@ -131,7 +131,8 @@ how to save cost in infra
 how to host static website
 
 ec2 -
-troubleshoot 
+troubleshoot 1/2, 0/2
+
 
 
 

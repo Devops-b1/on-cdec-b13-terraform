@@ -150,6 +150,8 @@ Alarms, Logs, events
 RDS
 Advantages 
 
+Route53 -
+DNS
 
 
 

@@ -89,8 +89,7 @@ RAM - free -h
 PRocess - lscpu, top 
 HDD - df -hT
 
-
-
+TOP
 
 
 

@@ -214,10 +214,12 @@ backend - microservice
 Amazon.war - monolithic
 
 cloth.war
+mobile.war
+home.war
+payment.war
 
 
-
-
+Java Fullstack
 
 
 

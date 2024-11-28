@@ -90,6 +90,7 @@ PRocess - lscpu, top
 HDD - df -hT
 
 TOP - 
+time uptime 
 
 
 

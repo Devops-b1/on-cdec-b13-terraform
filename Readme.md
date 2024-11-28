@@ -141,6 +141,8 @@ LC / LT:
 AMI
 Instance
 SG
+EBS
+Network
 
 
 

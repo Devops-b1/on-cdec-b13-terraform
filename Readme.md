@@ -81,7 +81,7 @@ terraform.state
 - all information
 
 
-A - terraform.state(v3)
+A - terraform.state(v3) - tf apply -> 
 
 B - terraform.state(v2) -> dev-bucket/prod-bucket/test-bucket
 

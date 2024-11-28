@@ -147,7 +147,8 @@ Natgateway V/C Nat instance
 CloudWatch 
 Alarms, Logs, events
 
-
+RDS
+Advantages 
 
 
 

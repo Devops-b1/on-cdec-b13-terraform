@@ -87,4 +87,4 @@ B - terraform.state(v2) -> dev-bucket/prod-bucket/test-bucket
 
 C - terraform.state(v2) 
 
-backend - remote state
+backend - remote tfstate

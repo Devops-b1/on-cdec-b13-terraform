@@ -141,7 +141,7 @@ instancetype
 VPC
 VPC Peering
 VPC Endpoint
-
+VPC NatGateway
 
 
 

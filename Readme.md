@@ -138,7 +138,6 @@ LB - types
 AS - 
 instancetype
 
-
 LC / LT:
 AMI
 Instance

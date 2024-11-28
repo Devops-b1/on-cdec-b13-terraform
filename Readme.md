@@ -106,7 +106,7 @@ AWK -
 
 top 5 highly utlized partition
 
-df -hT | awk '$(print 1
+df -hT | awk '$(print 1)'
 
 
 

@@ -78,3 +78,11 @@ iam
 terraform.state 
 
 - local and working dir create 
+
+
+A - terraform.state 
+
+B
+
+C
+

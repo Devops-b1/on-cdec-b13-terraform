@@ -3,7 +3,7 @@ terraform {
   backend "s3" {
     bucket = "on-cdec-b13-terraform"
     region = "us-east-1"
-    key = "terr"
+    key = "tfstate"
   }
   
 }

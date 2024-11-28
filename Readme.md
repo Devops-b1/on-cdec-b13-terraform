@@ -112,7 +112,6 @@ top 5 highly utlized partition
 df -hT | awk '(print $3)' | sort | head -5
 
 404 logs 
-
 cat /var/logs/httpd/error.log | awk '(print $3)' | sort | grep 404 | wc -l
 
 

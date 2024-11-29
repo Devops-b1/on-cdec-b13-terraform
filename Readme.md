@@ -95,3 +95,27 @@ HW,
 1) Terraform IAM user > console login + programatic access > Policy s3 full access
 2) Create s3 bucket > write a shell script to copy file from one s3 bucket to another
 3) Terraform Three tier infra : https://medium.com/@aaloktrivedi/building-a-3-tier-web-application-architecture-with-aws-eb5981613e30
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

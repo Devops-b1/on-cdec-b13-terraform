@@ -47,6 +47,6 @@ variable "my_name" {
 #     value = var.my_name
 # }
 
-# output "name" {
-#     value = var.my_name
-# }
+output "name" {
+    value = [for type in var.instance_type : "${type}"]
+}

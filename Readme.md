@@ -107,7 +107,9 @@ Multiple - Terraform Workspace / terraform.tfstate
 3. For Each - for different configurations
 
 
-echo "hi
+echo "hi"
+echo "welcome"
+echo "
 
 
 

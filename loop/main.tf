@@ -48,9 +48,6 @@ variable "my_name" {
 # }
 
 output "name" {
-    value = [for name in var.my_name : "my name is${name}"]
+    value = [for name in var.my_name : "my name is ${name}"]
 }
 
-
-my name is var.my_name
-my name is ["shubham", "Atul", "cloudblitz"]

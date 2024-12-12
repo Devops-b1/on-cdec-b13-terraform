@@ -102,7 +102,9 @@ Multiple - Terraform Workspace / terraform.tfstate
 
 ### Loop
 
-
+1. Count - Simplest loop 
+2. For
+3. For Each
 
 
 

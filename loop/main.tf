@@ -22,7 +22,9 @@ resource "aws_instance" "my_instance" {
     }
 }
 
-variable ""
+variable "instance_type" {
+
+}
 small  = t2.small
 micro  = t2.micro
 medium  = t2.micro

@@ -118,8 +118,9 @@ echo "batch"
 
 confs = {hi, shubham, hello, world, .....}
 for i in confs;
-    echo "$
-
+do
+    echo "$i";
+done;
 
 
 

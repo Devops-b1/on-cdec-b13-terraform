@@ -42,3 +42,5 @@ output "public_ip" {
 variable "my_name" {
     default = ["shubham", "Atul", "cloudblitz"]
 }
+
+

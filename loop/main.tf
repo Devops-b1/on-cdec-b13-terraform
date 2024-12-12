@@ -48,5 +48,5 @@ variable "my_name" {
 # }
 
 output "name" {
-    value = [for type in var.instance_type : "${type}"]
+    value = [for name in var.my_name : "${type}"]
 }

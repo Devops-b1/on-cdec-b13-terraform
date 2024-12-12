@@ -31,4 +31,6 @@ default = {
 }
 }
 
-output ""
+output "instance_type" {
+    value
+}

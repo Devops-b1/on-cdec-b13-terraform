@@ -30,3 +30,4 @@ default = {
     medium  = "t2.micro"
 }
 }
+

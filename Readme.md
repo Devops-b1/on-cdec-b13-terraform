@@ -116,7 +116,7 @@ echo "cloudblitz"
 echo "demo"
 echo "batch"
 
-confs = {hi, shubham, hello, world, .....}
+confs = {hi, shubham, hello, world}
 for i in confs;
 do
     echo "$i";

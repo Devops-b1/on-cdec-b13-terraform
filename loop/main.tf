@@ -44,7 +44,7 @@ variable "my_name" {
 }
 
 output "new_name" {
-    value = "my name is ${var.my_name}"
+    value = var.my_name
 }
 
 output "name" {

@@ -106,6 +106,8 @@ Multiple - Terraform Workspace / terraform.tfstate
 2. For
 3. For Each - for different configurations
 
+echo "hi"
+
 
 
 

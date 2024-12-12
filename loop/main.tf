@@ -18,7 +18,7 @@ resource "aws_instance" "my_instance" {
     instance_type = each.value
     key_name = "new-key-nv"
     tags = {
-        Name = "instance-${"
+        Name = "instance-${each.key}"
         Env = terraform.workspace
     }
 }

@@ -22,3 +22,4 @@ resource "aws_instance" "my_instance" {
     }
 }
 
+small  = t2.small

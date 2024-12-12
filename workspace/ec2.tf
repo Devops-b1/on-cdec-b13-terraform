@@ -20,3 +20,15 @@ variable "image_id" {
   default     = "ami-012967cc5a8c9f891"
   description = "Enter AMI ID"
 }
+
+variable "instance_type" {
+    default = "t2.micro"
+}
+
+variable "key_pair" {
+    default = "new-key-nv"
+}
+
+variable "subnet_id" {
+    default = "subnet-091678d44aa5db41d"
+}

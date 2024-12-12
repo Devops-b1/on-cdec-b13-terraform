@@ -107,7 +107,9 @@ Multiple - Terraform Workspace / terraform.tfstate
 3. For Each
 
 
-
+resource "aws_user" "new" {
+    name = "
+}
 
 
 

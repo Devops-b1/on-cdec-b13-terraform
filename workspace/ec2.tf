@@ -11,5 +11,6 @@ resource "aws_instance" "my_instance" {
     }
 }
 
-dev 
-prod
+* dev 
+  prod
+  test

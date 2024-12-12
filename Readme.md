@@ -113,7 +113,7 @@ echo "world"
 
 conf = {hi, welcome, world}
 for i in conf;
-    echo 
+    echo $i;
 
 
 

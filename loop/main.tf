@@ -36,6 +36,6 @@ default = {
 # }
 
 output "public_ip" {
-    value = [for in in var.instance_type : "${type}"]
+    value = [for ip in  : "${type}"]
 }
 

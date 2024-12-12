@@ -52,3 +52,5 @@ output "name" {
 }
 
 
+my name is var.my_name
+my name is 

@@ -50,3 +50,5 @@ variable "my_name" {
 output "name" {
     value = [for name in var.my_name : "my name is${name}"]
 }
+
+

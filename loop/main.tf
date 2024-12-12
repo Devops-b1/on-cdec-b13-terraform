@@ -43,9 +43,9 @@ variable "my_name" {
     default = ["shubham", "Atul", "cloudblitz"]
 }
 
-# output "name" {
-#     value = var.my_name
-# }
+output "new_name" {
+    value = "var.my_name
+}
 
 output "name" {
     value = [for name in var.my_name : "my name is ${name}"]

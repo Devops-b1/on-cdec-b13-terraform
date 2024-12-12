@@ -107,14 +107,14 @@ Multiple - Terraform Workspace / terraform.tfstate
 3. For Each - for different configurations
 
 echo "hi"
-echo "hi"
-echo "hi"
-echo "hi"
-echo "hi"
-echo "hi"
-echo "hi"
-echo "hi"
-echo "hi"
+echo "shubham"
+echo "hello"
+echo "world"
+echo "welcome"
+echo "to"
+echo "cloudblitz"
+echo "demo"
+echo "batch"
 
 
 

@@ -33,6 +33,8 @@ default = {
 
 variable "instance_conf" {
     default = {
-        
+        instance1 = {
+            ami = 
+        }
     }
 }

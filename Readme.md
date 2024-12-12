@@ -102,20 +102,7 @@ Multiple - Terraform Workspace / terraform.tfstate
 
 ### Loop
 
-echo "hi"
-echo "hi"
-echo "hi"
-echo "hi"
-echo "hi"
-echo "hi"
-echo "hi"
-echo "hi"
-echo "hi"
 
-for i in range(100);
-do 
-    echo "hi";
-done
 
 
 

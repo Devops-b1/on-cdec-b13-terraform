@@ -31,16 +31,18 @@ default = {
 }
 }
 
-# output "instance_type" {
-#     value = [for type in var.instance_type : "${type}"]
-# }
+# # output "instance_type" {
+# #     value = [for type in var.instance_type : "${type}"]
+# # }
 
-output "public_ip" {
-    value = [for ip in aws_instance.my_instance.public_ip : "${ip}"]
-}
+# output "public_ip" {
+#     value = [for ip in aws_instance.my_instance.public_ip : "${ip}"]
+# }
 
 variable "my_name" {
     default = ["shubham", "Atul", "cloudblitz"]
 }
 
-
+output "name" {
+    value = var.my_name
+}

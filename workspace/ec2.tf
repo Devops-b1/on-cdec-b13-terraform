@@ -10,3 +10,6 @@ resource "aws_instance" "my_instance" {
         Env = terraform.workspace
     }
 }
+
+dev 
+prod

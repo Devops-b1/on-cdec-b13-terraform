@@ -102,8 +102,14 @@ Multiple - Terraform Workspace / terraform.tfstate
 
 ### Loop
 
-
-
+echo "hi"
+echo "hi"
+echo "hi"
+echo "hi"
+echo "hi"
+echo "hi"
+echo "hi"
+echo "hi"
 
 
 

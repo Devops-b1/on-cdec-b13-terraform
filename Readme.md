@@ -97,7 +97,7 @@ HW,
 3) Terraform Three tier infra : https://medium.com/@aaloktrivedi/building-a-3-tier-web-application-architecture-with-aws-eb5981613e30
 
 
-Multiple - Terraform Workspace / 
+Multiple - Terraform Workspace / terraform.tfstate
 
 
 

@@ -32,5 +32,5 @@ default = {
 }
 
 output "instance_type" {
-    value
+    value = []
 }

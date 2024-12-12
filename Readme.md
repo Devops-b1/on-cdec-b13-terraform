@@ -108,7 +108,8 @@ Multiple - Terraform Workspace / terraform.tfstate
 
 
 resource "aws_user" "new" {
-    name = "
+    count = 4
+    name = "Shubham"
 }
 
 

@@ -39,4 +39,6 @@ output "public_ip" {
     value = [for ip in aws_instance.my_instance.public_ip : "${ip}"]
 }
 
-variable ""
+variable "my_name" {
+    default = []
+}

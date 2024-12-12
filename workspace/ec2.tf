@@ -11,6 +11,6 @@ resource "aws_instance" "my_instance" {
     }
 }
 
-* dev 
+* dev   terraform init
   prod
   test

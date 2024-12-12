@@ -15,7 +15,7 @@ provider "aws" {
 resource "aws_instance" "my_instance" {
     for_each = var.instance_type
     ami = "ami-012967cc5a8c9f891"
-    instance_type = each.value
+    instance_type = each.value.instance_type
     key_name = "new-key-nv"
     tags = {
         Name = "instance-${each.key}"

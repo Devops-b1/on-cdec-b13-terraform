@@ -31,7 +31,11 @@ default = {
 }
 }
 
-output "instance_type" {
-    value = [for type in var.instance_type : "${type}"]
+# output "instance_type" {
+#     value = [for type in var.instance_type : "${type}"]
+# }
+
+output "public_ip" {
+    value = [for in in var.instance_type : "${type}"]
 }
 

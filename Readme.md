@@ -111,7 +111,9 @@ echo "hi"
 echo "welcome"
 echo "world"
 
-
+conf = {}
+for i in conf;
+    fo
 
 
 

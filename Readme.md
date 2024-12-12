@@ -116,7 +116,8 @@ echo "cloudblitz"
 echo "demo"
 echo "batch"
 
-{}
+conf = {hi, shubham, hello, world, .....}
+
 
 
 

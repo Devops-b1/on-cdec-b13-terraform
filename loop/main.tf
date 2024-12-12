@@ -31,3 +31,8 @@ default = {
 }
 }
 
+variable "instance_conf" {
+    default = {
+        
+    }
+}

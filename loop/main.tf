@@ -42,8 +42,8 @@ variable "instance_conf" {
             instance_type = "t3.micro"
         }
         instance3 = {
-            ami = "ami-012967ccskahfgjc9f891"
-            instance_type = "t3.micro"
+            ami = "ami-ffdljbfs"
+            instance_type = "t4.micro"
         }
     }
 }

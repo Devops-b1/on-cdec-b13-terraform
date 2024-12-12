@@ -112,7 +112,10 @@ echo "hi"
 echo "hi"
 echo "hi"
 
-for i in 
+for i in range(10);
+do 
+    echo "hi";
+done
 
 
 

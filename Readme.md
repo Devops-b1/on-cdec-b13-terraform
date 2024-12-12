@@ -104,13 +104,10 @@ Multiple - Terraform Workspace / terraform.tfstate
 
 1. Count - Simplest loop 
 2. For
-3. For Each
+3. For Each - 
 
 
-resource "aws_user" "new" {
-    count = 4
-    name = "Shubham"
-}
+
 
 
 

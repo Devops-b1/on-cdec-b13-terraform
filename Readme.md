@@ -111,9 +111,9 @@ echo "hi"
 echo "welcome"
 echo "world"
 
-conf = {}
+conf = {hi, welcome, world}
 for i in conf;
-    fo
+    echo 
 
 
 

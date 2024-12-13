@@ -14,6 +14,6 @@ resource "aws_instance" "my_instance" {
     key_name = "new-key-nv"
     provisioner "file" {
         source  = "./script.sh"
-
+        destination = "/opt"
     }
 }

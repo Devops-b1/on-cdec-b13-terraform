@@ -134,6 +134,10 @@ local-exec -
 file
 
 
+terraform apply
+
+echo
+
 
 
 

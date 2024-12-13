@@ -7,3 +7,15 @@ resource "aws_instance" "demo_import_instance" {
     ami = ""
 }
 
+resource "aws_instance" "demo_import_instance" {
+    instance_type = ""
+    ami = ""
+}
+# resource "aws_instance" "demo_import_instance" {
+#     instance_type = ""
+#     ami = ""
+# }
+resource "aws_instance" "demo_import_instance" {
+    instance_type = ""
+    ami = ""
+}

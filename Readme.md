@@ -130,7 +130,7 @@ Terraform provisioners
 ---------------------
 
 remote-exec - 
-local-exec
+local-exec - 
 file
 
 

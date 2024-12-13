@@ -26,7 +26,7 @@ resource "aws_instance" "my_instance" {
         connection {
             type = "ssh"
             user = "ec2-user"
-            private_key = file()
+            private_key = file("")
         }
 
     }

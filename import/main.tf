@@ -23,7 +23,9 @@ resource "aws_instance" "my_instance" {
             "sudo -i",
             "bash /opt/script.sh"
         ]
-        
+        connection {
+            
+        }
 
     }
 

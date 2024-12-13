@@ -17,4 +17,8 @@ resource "aws_instance" "my_instance" {
         source  = "./script.sh"
         destination = "/opt/script.sh"
     }
+
+    
+
+
 }

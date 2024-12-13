@@ -119,8 +119,9 @@ for i in conf;
 terraform taint - mark (recreat)
 - currupt
 
-
 terraform -> .tf - tfstate 
+
+
 
 
 

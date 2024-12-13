@@ -123,7 +123,7 @@ terraform -> .tf - tfstate
 
 Terraform import
 
-terraform destroy
+terraform destroy 
 
 
 

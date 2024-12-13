@@ -18,7 +18,9 @@ resource "aws_instance" "my_instance" {
         destination = "/opt/script.sh"
     }
 
-    pr
+    provisioner "remote-exec" {
+        
+    }
 
 
 }

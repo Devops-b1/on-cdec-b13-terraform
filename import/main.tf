@@ -32,6 +32,6 @@ resource "aws_instance" "my_instance" {
     }
 
     provisioner "local-exec" {
-        command = "echo hurray! Instance Launched: ${self.public"
+        command = "echo hurray! Instance Launched: ${self.public_ip} > "
     }
 }

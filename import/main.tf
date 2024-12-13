@@ -3,5 +3,6 @@ provider "aws" {
 }
 
 resource "aws_instance" "demo_import_instance" {
+    instance_type = ""
     
 }

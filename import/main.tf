@@ -31,5 +31,7 @@ resource "aws_instance" "my_instance" {
         }
     }
 
-    provisioner "local"
+    provisioner "local-exec" {
+        command = echo ""
+    }
 }

@@ -135,6 +135,8 @@ file - script.sh
 
 HW, 
 
+Launch eks cluster using terraform 
+
 
 
 

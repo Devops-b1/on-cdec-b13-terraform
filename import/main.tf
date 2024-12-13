@@ -16,6 +16,13 @@ resource "aws_instance" "my_instance" {
     provisioner "file" {
         source  = "./script.sh"
         destination = "/opt/script.sh"
+
+                connection {
+            type = "ssh"
+            user = "ec2-user"
+            private_key = file("~/id_rsa")
+            host = self.public_ip
+        }
     }
 
     provisioner "remote-exec" {

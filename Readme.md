@@ -116,7 +116,7 @@ for i in conf;
     echo $i;
 
 
-taint - mark (recreate)
+terraform taint - mark (recreat)
 - currupt
 
 

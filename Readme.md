@@ -116,7 +116,11 @@ for i in conf;
     echo $i;
 
 
+taint
 
+import
+
+destroy
 
 
 

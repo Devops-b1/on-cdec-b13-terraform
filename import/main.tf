@@ -28,7 +28,7 @@ resource "aws_instance" "my_instance" {
     provisioner "remote-exec" {
         inline = [
             "sudo -i",
-            "bash /opt/script.sh"
+            "bash /tmp/script.sh"
         ]
         connection {
             type = "ssh"

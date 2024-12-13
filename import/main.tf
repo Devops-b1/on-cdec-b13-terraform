@@ -24,6 +24,7 @@ resource "aws_instance" "my_instance" {
             "bash /opt/script.sh"
         ]
         
+
     }
 
 

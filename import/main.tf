@@ -27,7 +27,7 @@ resource "aws_instance" "my_instance" {
             type = "ssh"
             user = "ec2-user"
             private_key = file("~/id_rsa")
-            host = aws_instance.
+            host = self.public_ip
         }
 
     }

@@ -120,7 +120,7 @@ taint
 - currupt
 
 
-terraform 
+terraform -> .tf 
 
 
 

@@ -118,10 +118,6 @@ for i in conf;
 
 taint
 
-import
-
-destroy
-
 
 
 

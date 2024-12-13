@@ -21,8 +21,9 @@ resource "aws_instance" "my_instance" {
     provisioner "remote-exec" {
         inline = [
             "sudo -i",
-            "bash "
+            "bash /opt/script.sh"
         ]
+        
     }
 
 

@@ -15,7 +15,7 @@ resource "aws_instance" "my_instance" {
     
     provisioner "file" {
         source  = "./script.sh"
-        destination = "/opt/script.sh"
+        destination = "/tmp/script.sh"
 
         connection {
             type = "ssh"

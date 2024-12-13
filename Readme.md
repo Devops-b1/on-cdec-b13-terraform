@@ -123,7 +123,7 @@ terraform -> .tf - tfstate
 
 Terraform import
 
-terraform destroy --target=
+terraform destroy --target=aws_instance.demo
 
 
 

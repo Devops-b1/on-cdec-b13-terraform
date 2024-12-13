@@ -116,7 +116,7 @@ for i in conf;
     echo $i;
 
 
-taint
+taint - 
 - currupt
 
 

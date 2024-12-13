@@ -29,7 +29,6 @@ resource "aws_instance" "my_instance" {
             private_key = file("~/id_rsa")
             host = self.public_ip
         }
-
     }
 
 

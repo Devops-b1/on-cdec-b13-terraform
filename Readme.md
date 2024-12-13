@@ -129,9 +129,9 @@ terraform destroy --target=aws_instance.demo_import_instance
 Terraform provisioners
 ---------------------
 
-remote-exec - 
+remote-exec - ./script.sh
 local-exec - 
-file - 
+file - script.sh
 
 
 

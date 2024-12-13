@@ -13,6 +13,7 @@ resource "aws_instance" "my_instance" {
     instance_type = "t2.micro"
     key_name = "new-key-nv"
     provisioner "file" {
-        source  = "/"
+        source  = "./script.sh"
+
     }
 }

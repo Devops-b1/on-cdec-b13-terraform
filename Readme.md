@@ -133,6 +133,7 @@ remote-exec - ./script.sh
 local-exec - echo "hurray! resource created"
 file - script.sh
 
+HW, 
 
 
 

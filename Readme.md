@@ -158,6 +158,9 @@ Configuration:
     role-type:
     policy: ContainerRegisyryReadOnly, EKS_CNI, EKS_WORKERNODE, EKS_NETWORKING, EKS_CLUSTER 
     rolename: 
+
+4) NodeGroup:
+    resource: aws_node_group
     
 
 

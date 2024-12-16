@@ -10,5 +10,7 @@ variable max_nodes {
 variable min_nodes {
     default = 2
 }
-variable node_instance_type {}
+variable node_instance_type {
+    default = "t3.micro"
+}
 

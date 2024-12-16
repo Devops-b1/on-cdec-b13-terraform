@@ -170,7 +170,7 @@ Configuration:
 
 
 
-Create hybrid infrastructure to implement 
+Create hybrid infrastructure for three tier 
 
 
 

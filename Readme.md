@@ -143,6 +143,7 @@ Configuration:
         cluster IAM role:
         Node Iam Role
         vpc:
+        subnets:
         
 
 2) Cluster Role:

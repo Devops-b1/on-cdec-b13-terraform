@@ -151,6 +151,7 @@ Configuration:
     role-type:
     policy: AmazonEksClusterPolicy
     rolename: 
+    
 3) Node Role:
 
 

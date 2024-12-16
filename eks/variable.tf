@@ -4,7 +4,11 @@ variable project {
 variable desired_nodes {
     default = 2
 }
-variable max_nodes {}
-variable min_nodes {}
+variable max_nodes {
+    default = 2
+}
+variable min_nodes {
+    default = 2
+}
 variable node_instance_type {}
 

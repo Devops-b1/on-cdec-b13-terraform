@@ -165,10 +165,8 @@ Configuration:
         node role:
         instance_type:
         Disk Size:
+        subnets:
         
-    
-
-
 
 
 

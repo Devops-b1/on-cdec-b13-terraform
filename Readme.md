@@ -166,7 +166,13 @@ Configuration:
         instance_type:
         Disk Size:
         subnets:
-        
+
+
+
+
+
+
+
 
 
 

@@ -140,6 +140,7 @@ Configuration:
     resournce name: aws_eks_cluster
     cluster name
     kubernetes version:
+    cluster IAM role:
 
 
 

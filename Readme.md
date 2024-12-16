@@ -147,7 +147,8 @@ Configuration:
 
 
 2) Cluster Role:
-
+    resource name: aws_iam_role
+    
 3) Node Role:
 
 

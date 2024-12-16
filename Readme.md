@@ -151,10 +151,14 @@ Configuration:
     role-type:
     policy: AmazonEksClusterPolicy
     rolename: 
-    
+
 3) Node Role:
 
-
+    resource name: aws_iam_role
+    role-type:
+    policy: 
+    rolename: 
+    
 
 
 

@@ -169,8 +169,9 @@ Configuration:
 
 
 
+HW.
+- Create hybrid infrastructure for three tier microservice based application
 
-Create hybrid infrastructure for three tier 
 
 
 

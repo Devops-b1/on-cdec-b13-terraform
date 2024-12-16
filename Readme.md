@@ -161,6 +161,8 @@ Configuration:
 
 4) NodeGroup:
     resource: aws_eks_node_group
+        name: 
+        node role:
         
     
 

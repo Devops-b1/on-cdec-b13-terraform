@@ -142,8 +142,11 @@ Configuration:
         kubernetes version:
         cluster IAM role:
         Node Iam Role
+        vpc:
+        
 
 2) Cluster Role:
+3) Node Role:
 
 
 

@@ -160,7 +160,8 @@ Configuration:
     rolename: 
 
 4) NodeGroup:
-    resource: aws_node_group
+    resource: aws_eks_node_group
+        
     
 
 

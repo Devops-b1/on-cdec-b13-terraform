@@ -164,6 +164,7 @@ Configuration:
         name: 
         node role:
         instance_type:
+        Disk Size:
         
     
 

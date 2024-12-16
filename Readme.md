@@ -136,7 +136,9 @@ file - script.sh
 HW, 
 
 Launch eks cluster using terraform 
-
+Configuration:
+    resournce name: aws_eks_cluster
+    
 
 
 

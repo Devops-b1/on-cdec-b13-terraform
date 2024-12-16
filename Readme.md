@@ -156,7 +156,7 @@ Configuration:
 
     resource name: aws_iam_role
     role-type:
-    policy: ContainerRegisyryReadOnly, EKS_CNI, 
+    policy: ContainerRegisyryReadOnly, EKS_CNI, EKS_WORKERNODE, 
     rolename: 
     
 

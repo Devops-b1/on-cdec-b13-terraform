@@ -163,6 +163,7 @@ Configuration:
     resource: aws_eks_node_group
         name: 
         node role:
+        instance_type:
         
     
 

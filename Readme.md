@@ -171,7 +171,7 @@ Configuration:
 
 HW.
 - Create hybrid infrastructure for three tier microservice based application
-
+(Diagram shared )
 
 
 

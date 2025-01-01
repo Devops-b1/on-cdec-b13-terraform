@@ -1,3 +1,7 @@
+provider "aws" {
+region = "us-east-1"
+}
+
 # Create an IAM Role for the EKS Cluster
 resource "aws_iam_role" "eks_cluster_role" {
   name = "eks-cluster-role"
